@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/85a714fbe7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cooking Master</title>
+</head>
+
+<body>
+
+    <header class="container">
+
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent my-3">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">Cooking Master</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#meals-section">Recipes</a>
+                        <a class="nav-link" href="#">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Search Bar -->
+
+        <div class="container input-group my-5 search-bar">
+            <input id="search-bar" type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                aria-describedby="search-addon" />
+            <button id="search-btn" type="button" class="btn btn-outline-light">search</button>
+        </div>
+
+    </header>
+
+    <main class="container">
+
+        <!-- Meal Details -->
+
+        <section id="meal-details">
+        </section>
+
+        <!-- Meals -->
+
+        <section id="meals-section" class="row">
+        </section>
+
+    </main>
+
+    <footer class="text-center mt-5">
+
+        <small class="text-white">2022 © Asif Rezwan Kabir | All Rights Reserved</small>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

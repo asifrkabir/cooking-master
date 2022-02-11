@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-image: url("../images/bg.png");
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search-bar{
+    width: 80%;
+}
+
+main{
+    min-height: 75vh;
+}
+
+#meals-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#meals-section .card{
+    margin: 20px;
+    padding: 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#meals-section .card img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+#meal-details{
+    width: 40%;
+    margin: 0 auto;
+}
+
+#meal-details .card{
+    border-radius: 10px;
+}
+
+#meal-details img{
+    border-radius: 10px 10px 0 0;
+}
